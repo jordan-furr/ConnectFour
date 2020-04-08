@@ -1,5 +1,5 @@
 //
-//  Game.swift
+//  Board.swift
 //  ConnectFour
 //
 //  Created by Jordan Furr on 4/8/20.
