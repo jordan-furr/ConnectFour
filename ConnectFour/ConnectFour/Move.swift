@@ -6,4 +6,14 @@
 //  Copyright © 2020 Jordan Furr. All rights reserved.
 //
 
-import Foundation
+import GameplayKit
+import UIKit
+
+class Move: NSObject, GKGameModelUpdate {
+    var value: Int = 0
+    var column: Int
+    
+    init(column: Int) {
+        self.column = column
+    }
+}
