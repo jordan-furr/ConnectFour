@@ -6,4 +6,13 @@
 //  Copyright © 2020 Jordan Furr. All rights reserved.
 //
 
-import Foundation
+import GameplayKit
+import UIKit
+
+class Board: NSObject, GKGameModel {
+    static var width = 7
+    static var height = 6
+    
+    var slots = [ChipColor]()
+    var currentPlayer: Player
+}
