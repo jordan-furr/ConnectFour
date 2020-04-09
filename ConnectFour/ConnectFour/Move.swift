@@ -9,7 +9,7 @@
 import GameplayKit
 import UIKit
 
-class Move: NSObject, GKGameModelPlayer {
+class Move: NSObject, GKGameModelUpdate {
     var value: Int = 0
     var column: Int
     
